@@ -1,0 +1,31 @@
+table{
+    border−collapse: collapse;
+    width: 80%;
+    margin:auto;
+    }
+    td {
+        background−color:#0000FF;
+    text−align:right;
+   color: red;
+   
+    }
+    th{
+    background−color:#C0C0C0;
+    color: rgb(0, 30, 128);
+    }
+    td:nth-child(2){
+        background-color: yellow;
+    }
+    th:nth-child(2){
+        background-color: red;
+    }
+    th:nth-child(1){
+        background-color: gray;
+    }
+    th:nth-child(3){
+        background-color: rgb(103, 14, 219);
+    }
+    
+    tr:nth-child(3){
+        background-color: hotpink;
+    }
